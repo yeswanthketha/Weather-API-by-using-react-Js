@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ddt{
+  /* background-color: blueviolet; */
+  /* background-image: 'https://images.hdqwalls.com/wallpapers/clouds-summer-weather-5k-1b.jpg'; */
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-pexels-photo.jpg); 
+  /* background-repeat: no-repeat; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+}
+.ddt:hover{
+  transform: scale(1.5);
+}
+.main{
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+           
+           
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* input[type="text"]{
+  
+  border-radius: 3px;
+  padding: 5px; */
+/* } */
+button{
+  border-radius: 3px;
+  padding: 5px;
+  
+}
+button:hover{
+  background-color:rgb(136, 185, 242);
 }
